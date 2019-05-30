@@ -7,7 +7,7 @@ import java.util.UUID;
 
 @Getter
 @AllArgsConstructor
-public class BattleTurn {
+public class BattleRound {
 
     private final String turnId = UUID.randomUUID().toString();
     private final BattlePhase phase;

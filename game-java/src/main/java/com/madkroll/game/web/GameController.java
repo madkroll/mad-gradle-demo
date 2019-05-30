@@ -19,13 +19,13 @@ public class GameController {
 
     @RequestMapping("/start")
     @GetMapping(produces = {MediaType.APPLICATION_JSON_VALUE})
-    public BattleTurn startGame() {
+    public BattleRound startGame() {
         return battleState.reset();
     }
 
     @RequestMapping("/turn")
     @GetMapping(produces = {MediaType.APPLICATION_JSON_VALUE})
-    public BattleTurn handleTurn() {
+    public BattleRound handleTurn() {
         return battleState.doTurn();
     }
 }
