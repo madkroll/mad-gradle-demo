@@ -1,0 +1,3 @@
+include ':demo-java'
+include ':demo-kotlin'
+include ':demo-boot'
