@@ -1,7 +1,5 @@
-package com.madkroll.game.web;
+package com.madkroll.game.battle;
 
-import com.madkroll.game.battle.BattleTurn;
-import com.madkroll.game.battle.DamageCalculator;
 import com.madkroll.game.utils.TargetParser;
 import org.junit.Test;
 import org.junit.runner.RunWith;
