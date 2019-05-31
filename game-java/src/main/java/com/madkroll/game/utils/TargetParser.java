@@ -1,4 +1,4 @@
-package com.madkroll.game.web;
+package com.madkroll.game.utils;
 
 import org.springframework.stereotype.Service;
 

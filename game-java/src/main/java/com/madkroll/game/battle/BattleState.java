@@ -1,5 +1,6 @@
-package com.madkroll.game.web;
+package com.madkroll.game.battle;
 
+import com.madkroll.game.utils.TargetParser;
 import lombok.Getter;
 import org.springframework.stereotype.Service;
 

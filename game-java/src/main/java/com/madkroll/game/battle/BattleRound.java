@@ -1,4 +1,4 @@
-package com.madkroll.game.web;
+package com.madkroll.game.battle;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
